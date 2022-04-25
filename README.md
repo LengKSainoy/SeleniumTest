@@ -33,6 +33,5 @@ above.
 
 ### TestForDeleteTodo.runTest
 - Tests "Delete Todo"
-- _runTest_ method takes the index of the todo that is to be deleted. The index
-  starts at 0. Make sure you cast the input object to the correct type.
-- Write a code to delete all completed todo(s) using the Selenium driver.
+- _runTest_ method takes the title of the todo that is to be deleted. Make sure you cast the input object to the correct type.
+- Write a code to delete todo with the todo's title that was passed using the Selenium driver.

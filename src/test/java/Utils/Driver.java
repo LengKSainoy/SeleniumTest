@@ -14,7 +14,7 @@ public class Driver {
       return driver;
    }
 
-   public static void closeDriver() {
+   public static void tearDown() {
       if (driver != null) {
          driver.quit();
       }
